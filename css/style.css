@@ -1,0 +1,38 @@
+body {
+  background-color: darkcyan;
+  color: white;
+}
+main {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+input {
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+input::placeholder {
+  color: white;
+}
+#dropdown {
+  padding: 5px;
+}
+textarea {
+  outline: none;
+  resize: none;
+}
+button {
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  padding: 5px 15px;
+}
+#survey-form {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

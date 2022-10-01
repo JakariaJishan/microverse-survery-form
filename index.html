@@ -8,34 +8,62 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <header>
-      <h1 id="title">Player's details</h1>
-      <p id="description">
-        A Player's detail who will participate in FIFA World Cup 2022.
-      </p>
-    </header>
-    <form action="" id="survey-form">
-      <label for="" id="name-label" >Name</label>
-      <input type="text" id="name" required placeholder="Enter your name"/>
-      <label for="" id="email-label" >Email</label>
-      <input type="email" id="email" required placeholder="Enter your email"/>
-      <label for="" id="number-label" >Phone Number</label>
-      <input type="number" id="number" min="1" max="5" placeholder="Enter your phone number"/>
-      <select name="" id="dropdown">
-        <option value="Jakaria">Jakaria</option>
-        <option value="Moses">Moses</option>
-      </select>
-      <!-- <label for="">Gender</label> -->
-      <input type="radio" name="gender"/>
-      <label for="">Male</label>
-      <input type="radio" name="gender">
-      <label for="">Female</label>
-
-      <input type="checkbox" value="hello">
-      <input type="textarea">
-      <button>Submit</button>
-    </form>
+    <main class="main">
+      <header>
+        <h1 id="title">Player's details</h1>
+        <p id="description">
+          A Player's detail who will participate in FIFA World Cup 2022.
+        </p>
+      </header>
+      <form action="" id="survey-form">
+        <label for="" id="name-label">Name:</label>
+        <input type="text" id="name" required placeholder="Enter your name" />
+        <br />
+        <label for="" id="email-label">Email:</label>
+        <input
+          type="email"
+          id="email"
+          required
+          placeholder="Enter your email"
+        />
+        <br />
+        <label for="" id="number-label">Phone Number:</label>
+        <input
+          type="number"
+          id="number"
+          min="1"
+          max="5"
+          placeholder="Enter your phone number"
+        />
+        <br />
+        <select name="" id="dropdown">
+          <option value="Jakaria">Jakaria</option>
+          <option value="Moses">Moses</option>
+        </select>
+        <br />
+        <!-- <label for="">Gender</label> -->
+        <input type="radio" name="gender" value="Male" />
+        <label for="">Male</label>
+        <br />
+        <input type="radio" name="gender" value="female" />
+        <label for="">Female</label>
+        <br />
+        <input type="checkbox" value="hello" />
+        <label for="">hello</label>
+        <br />
+        <input type="checkbox" value="world" />
+        <label for="">world</label>
+        <br />
+        <textarea
+          name="comments"
+          placeholder="Enter your comments"
+          rows="5"
+          cols="30"
+        ></textarea>
+        <br />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
 
     <script src="js/index.js"></script>
   </body>
